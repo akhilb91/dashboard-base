@@ -1,0 +1,35 @@
+/* App.css */
+.container {
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topbar-title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: block;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
